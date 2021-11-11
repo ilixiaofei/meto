@@ -1,0 +1,56 @@
+/* 布局结构 - 圣杯布局 */
+
+
+/* 
+    <div class="wrap">
+        <div class="header">header</div>
+        <div class="container">
+            <div class="center">center</div>
+            <div class="left">left</div>
+            <div class="right">right</div>
+        </div>
+        <div class="footer">footer</div>
+    </div>
+*/
+
+.header {
+    height: 150px;
+    /* background-color: slategray; */
+}
+
+.container {
+    padding-left: 200px;
+    padding-right: 250px;
+    min-width: 650px;
+}
+
+.center {
+    float: left;
+    width: 100%;
+    height: 500px;
+    background-color: gainsboro;
+}
+
+.left {
+    float: left;
+    position: relative;
+    right: 200px;
+    width: 200px;
+    height: 500px;
+    margin-left: -100%;
+    background-color: honeydew;
+}
+
+.right {
+    float: left;
+    width: 250px;
+    height: 500px;
+    margin-right: -250px;
+    background-color: khaki;
+}
+
+.footer {
+    clear: both;
+    height: 200px;
+    /* background-color: gray; */
+}
