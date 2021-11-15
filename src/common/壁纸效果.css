@@ -1,3 +1,10 @@
+/* 布局结构 - 壁纸效果 */
+
+
+/* 
+    <div class="pic"></div>
+ */
+
 .pic {
     position: fixed;
     top: 0;
